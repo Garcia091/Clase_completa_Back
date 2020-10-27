@@ -58,7 +58,7 @@ mysqlConnection.query(`UPDATE TIPO_USUARIO SET TIPO_USUARIO = ? WHERE ID_TIPO = 
       }else{
         console.log(err);
       }
-    })
-  })
+    });
+  });
 
 module.exports = router;
